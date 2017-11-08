@@ -1,1 +1,2 @@
-# movie_website
+# movie_website beginner project
+Simple project creating a webpage with a list of personal movie favorites. This project is part of an online course I'm currently enrolled in. Part of the code was given by my instructor. 
