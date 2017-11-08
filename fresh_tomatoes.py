@@ -129,7 +129,11 @@ movie_tile_content = '''
 '''
 
 def create_movie_tiles_content(movies):
-    '''The HTML content for this section of the page. Inputs: list of movies. Output: specific information (title,poster image,date released, number of times I've watched this movie, and trailer), inside variable content'''
+    '''The HTML content for this section of the page. 
+    Inputs: 
+      list of movies. 
+    Output: 
+      specific information (title,poster image,date released, number of times I've watched this movie, and trailer), inside variable content'''
 
     content = ''
     for movie in movies:
@@ -150,7 +154,11 @@ def create_movie_tiles_content(movies):
     return content
 
 def open_movies_page(movies):
-  '''Opens new broswer window for the fresh tomatoes page. Input: list of movies. Output: none'''
+  ''' Opens new broswer window for the fresh tomatoes page. 
+    Input: 
+      list of movies coming from entertainment_center. 
+    Output: 
+      None '''
 
   # Create or overwrite the output file
   output_file = open('fresh_tomatoes.html', 'w')
