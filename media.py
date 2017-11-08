@@ -3,7 +3,9 @@ import webbrowser
 class Movie():
 	''' This class provides a way to store movie related information '''
 
-	VALID_RATINGS = ["G", "PG", "PG-13", "R"] # this is a constant variable (class variable), and Google StyleGuide says that these type of variables should be spelled out in all caps
+	'''This is a constant variable (class variable), and Google StyleGuide says that these type of variables should be spelled out in all caps'''
+	VALID_RATINGS = ["G", "PG", "PG-13", "R"] 
+
 
 	def __init__(self, movie_title,movie_storyline, poster_image, trailer_youtube, date, numb_of_times_watched): 	
 		# NOTE:__ underscores tell that this is a reserved word in python
